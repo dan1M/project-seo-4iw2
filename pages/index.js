@@ -1,18 +1,19 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import utilStyles from '../styles/utils.module.css';
+import Layout, { siteTitle } from '../components/layout';
 
-export default function Home() {
+export default function Home({ allPostsData }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>CHEF RETARD !</title>
+        <title>Chef Retard et ses mésaventures</title>
         <link rel='icon' href='/favicon.ico' />
+        <meta name='robots' content='all' />
+        <meta name='description' content='Chef Retard et ses mésaventures' />
       </Head>
 
       <main>
-        <h1 className={styles.title}>
-          Bienvenue sur <a href='#'>CHEF RETARD !</a>
-        </h1>
+        <h1 className={styles.title}>Chef Retard et ses mésaventures</h1>
 
         <div className={styles.grid}>
           {/* <a
@@ -25,20 +26,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer>
-        <a
-          href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Powered by{' '}
-          <img
-            src='/chef-retard.svg'
-            alt='chef-retard'
-            className={styles.logo}
-          />
-        </a>
-      </footer>
+      <footer></footer>
 
       <style jsx>{`
         main {
