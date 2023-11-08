@@ -1,4 +1,8 @@
+import Head from 'next/head';
+import Layout, { siteTitle } from '../../components/layout';
 import { getAllPostIds, getPostData } from '../../lib/posts';
+import Date from '../../components/date';
+import utilStyles from '../../styles/utils.module.css';
 
 export async function getStaticPaths() {
   const paths = getAllPostIds();
@@ -8,7 +12,7 @@ export async function getStaticPaths() {
   };
 }
 export async function getStaticProps({ params }) {
-  const postData = getPostData(params.id);
+  const postData = await getPostData(params.id);
   return {
     props: {
       postData,
@@ -18,12 +22,20 @@ export async function getStaticProps({ params }) {
 
 export default function Post({ postData }) {
   return (
-    <div>
-      {postData.title}
-      <br />
-      {postData.id}
-      <br />
-      {postData.date}
-    </div>
+    <Layout>
+      <Head>
+        <title>
+          {siteTitle}
+          {' - '}
+          {postData.title}
+        </title>
+      </Head>
+      <article>
+        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div className={utilStyles.lightText}>
+          Dernière mise à jour: <Date dateString={postData.date} />
+        </div>
+      </article>
+    </Layout>
   );
 }

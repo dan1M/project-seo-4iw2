@@ -1,9 +1,9 @@
 ---
-title: 'Chef Retard - Acte 5'
-date: '2023-11-07'
+title: 'Acte V: Le Retour Triomphant du chef retard'
+date: '2023-11-08'
 ---
 
-Acte 5: Le Retour Triomphant
+## Acte V: Le Retour Triomphant du chef retard
 
 De retour au travail, le "cheeef" décida de mettre fin à ses escapades impulsives. Il comprit que son talent pour les surnoms ne pouvait pas résoudre tous les problèmes. Il s'excusa auprès de Maria et Victor, criant son "CHEEEEEEEEF" avec conviction, et promit d'être plus présent et responsable.
 

@@ -1,9 +1,9 @@
 ---
-title: 'Chef Retard - Acte 4'
+title: 'Acte IV: La Crise'
 date: '2023-11-07'
 ---
 
-Acte 4: La Crise
+## Acte IV: La Crise
 
 Un jour, lors d'une aventure, le "cheeef" et son équipe se retrouvèrent dans une situation périlleuse. Pris au piège dans une tempête de neige en haute montagne, le "cheeef" criait "CHEEEEEEEEF" avec puissance, mais même son charme ne pouvait pas apaiser la tempête.
 
