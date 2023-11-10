@@ -1,8 +1,28 @@
 <xml version="1.0" encoding="UTF-8">
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-      <loc>http://www.monurl.com/foo</loc>
-      <lastmod>2021-06-01</lastmod>
+      <loc>https://chef--retard.vercel.app/</loc>
+      <lastmod>2023-11-10</lastmod>
+    </url>
+    <url>
+      <loc>https://chef--retard.vercel.app/posts/chef-retard-1</loc>
+      <lastmod>2023-11-10</lastmod>
+    </url>
+    <url>
+      <loc>https://chef--retard.vercel.app/posts/chef-retard-2</loc>
+      <lastmod>2023-11-10</lastmod>
+    </url>
+    <url>
+      <loc>https://chef--retard.vercel.app/posts/chef-retard-3</loc>
+      <lastmod>2023-11-10</lastmod>
+    </url>
+    <url>
+      <loc>https://chef--retard.vercel.app/posts/chef-retard-4</loc>
+      <lastmod>2023-11-10</lastmod>
+    </url>
+    <url>
+      <loc>https://chef--retard.vercel.app/posts/chef-retard-5</loc>
+      <lastmod>2023-11-10</lastmod>
     </url>
   </urlset>
 </xml>
