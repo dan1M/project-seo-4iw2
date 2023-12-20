@@ -11,11 +11,21 @@ export default function Layout({ children, home }) {
       <Head>
         <link rel='icon' href='/favicon.ico' />
         <meta name='description' content='Chef Retard et ses mésaventures' />
-        <meta name='og:title' content={siteTitle} />
+        <meta property='og:title' content={siteTitle} />
+        <meta property='og:type' content='website' />
+        <meta
+          property='og:description'
+          content='Chef Retard et ses mésaventures'
+        />
+        <meta property='og:url' content='https://www.chefretard.com/' />
+        <meta
+          property='og:image'
+          content='https://www.chefretard.com/chef-retard.png'
+        />
         <meta name='robots' content='all' />
         <meta
           name='keywords'
-          content='chef, retard, chef retard, chef-retard, histoire'
+          content='chef, retard, chef retard, chef-retard, histoire, histoire chef'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <meta name='author' content='Chef Retard' />
