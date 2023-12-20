@@ -13,6 +13,12 @@ export default function Layout({ children, home }) {
         <meta name='description' content='Chef Retard et ses mésaventures' />
         <meta name='og:title' content={siteTitle} />
         <meta name='robots' content='all' />
+        <meta
+          name='keywords'
+          content='chef, retard, chef retard, chef-retard, histoire'
+        />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='author' content='Chef Retard' />
         <title>Chef Retard et ses mésaventures</title>
       </Head>
       {!home && (
