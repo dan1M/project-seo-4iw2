@@ -21,14 +21,11 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Post({ postData }) {
+  const title = siteTitle + ' - ' + postData.title;
   return (
     <Layout>
       <Head>
-        <title>
-          {siteTitle}
-          {' - '}
-          {postData.title}
-        </title>
+        <title>{title}</title>
       </Head>
       <article>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
